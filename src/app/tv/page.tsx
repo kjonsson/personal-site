@@ -1,43 +1,16 @@
+import ConsumedTable from "@/components/ConsumedTable";
+
 const tvWatched = [
   {
-    image: "/docs/images/products/apple-watch.png",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMTdmZjBjZjQtY2JiNS00Y2ZlLTg2NzgtMjUzMGY2OTVmOWJiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
     title: "Ted Lasso",
+    link: "https://www.imdb.com/title/tt10986410/",
   },
 ];
 
 const MoviePage = () => {
-  return (
-    <div className="min-h-screen">
-      <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-        <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-              <th scope="col" className="px-6 py-3">
-                <span className="sr-only">Image</span>
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Title
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {tvWatched.map((tv) => {
-              return (
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                  <td className="p-4">
-                    <img src={tv.image} alt={`Image of ${tv.title}`} />
-                  </td>
-                  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">
-                    {tv.title}
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  );
+  return <ConsumedTable consumed={tvWatched} />;
 };
 
 export default MoviePage;

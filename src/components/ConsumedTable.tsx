@@ -1,15 +1,17 @@
+"use client";
+
 import Image from "next/image";
 
 const ConsumedTable = ({
   consumed,
 }: {
-  consumed: Array<{ image: string; title: string }>;
+  consumed: Array<{ image: string; title: string; link: string }>;
 }) => {
   return (
     <div className="min-h-screen">
       <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-        <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <table className="w-full text-sm text-left text-gray-500 ">
+          <thead className="text-xs text-gray-700 uppercase bg-gray-50 ">
             <tr>
               <th scope="col" className="px-6 py-3">
                 <span className="sr-only">Image</span>
@@ -22,7 +24,12 @@ const ConsumedTable = ({
           <tbody>
             {consumed.map((consume) => {
               return (
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <tr
+                  className="bg-white border-b hover:bg-gray-50 hover:cursor-pointer"
+                  onClick={() =>
+                    !!window && window.open(consume.link, "_blank")
+                  }
+                >
                   <td className="w-64 p-4">
                     <Image
                       width={50}
@@ -31,7 +38,7 @@ const ConsumedTable = ({
                       alt={`Image of ${consume.title}`}
                     />
                   </td>
-                  <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">
+                  <td className="px-6 py-4 font-semibold text-gray-900">
                     {consume.title}
                   </td>
                 </tr>
