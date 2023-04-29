@@ -107,6 +107,72 @@ const books = [
     image: "https://m.media-amazon.com/images/I/51YUkI5ZQ-L.jpg",
     link: "https://www.amazon.com/Hatching-Twitter-Story-Friendship-Betrayal-ebook/dp/B00CDUVSQ0",
   },
+  {
+    title: "Billion Dollar Loser",
+    image: "https://m.media-amazon.com/images/I/516n97k5cZS.jpg",
+    link: "https://www.amazon.com/Billion-Dollar-Loser-Spectacular-Neumann-ebook/dp/B08CV6GB22",
+  },
+  {
+    title: "Making Work Visible",
+    image: "https://m.media-amazon.com/images/I/41Fye4IqbBL.jpg",
+    link: "https://www.amazon.com/Making-Work-Visible-Second-Exposing-ebook/dp/B09L3B9YK1",
+  },
+  {
+    title: "Why Nations Fail",
+    image: "https://m.media-amazon.com/images/I/51Tir1hXEIL._SY346_.jpg",
+    link: "https://www.amazon.com/Why-Nations-Fail-Origins-Prosperity-ebook/dp/B0058Z4NR8",
+  },
+  {
+    title: "How To Fail at Almost Everything and Still Win Big",
+    image: "https://m.media-amazon.com/images/I/81slmX75nTL.jpg",
+    link: "https://www.amazon.com/How-Fail-Almost-Everything-Still/dp/1591847745",
+  },
+  {
+    title:
+      "In Business as in Life, You Don't Get What You Deserve, You Get What You Negotiate",
+    image: "https://m.media-amazon.com/images/I/91jPX-RE4bL.jpg",
+    link: "https://www.amazon.com/Business-Life-Dont-Deserve-Negotiate/dp/0965227499",
+  },
+  {
+    title: "Alibaba",
+    image: "https://m.media-amazon.com/images/I/51YRHakTODL.jpg",
+    link: "https://www.amazon.com/Alibaba-Duncan-Clark-audiobook/dp/B01AYLBVF2",
+  },
+  {
+    title: "Ghost in the Wires",
+    image: "https://m.media-amazon.com/images/I/51iA3x11YpL.jpg",
+    link: "https://www.amazon.com/Ghost-in-Wires-audiobook/dp/B005HBO3BY",
+  },
+  {
+    title: "The Facebook Effect",
+    image: "https://m.media-amazon.com/images/I/51dRCHSfLHL.jpg",
+    link: "https://www.amazon.com/Facebook-Effect-Inside-Company-Connecting-ebook/dp/B003BHM85O",
+  },
+  {
+    title: "Netflixed",
+    image: "https://m.media-amazon.com/images/I/71dLnDHeDTL.jpg",
+    link: "https://www.amazon.com/Netflixed-Epic-Battle-Americas-Eyeballs/dp/1591846595",
+  },
+  {
+    title: "The Everything Store",
+    image: "https://m.media-amazon.com/images/I/51ULBoVSTcL.jpg",
+    link: "https://www.amazon.com/The-Everything-Store-Brad-Stone-audiobook/dp/B00FJFJOLC",
+  },
+  {
+    title: "A Man for All Markets",
+    image: "https://m.media-amazon.com/images/I/51O0kHBOtpL.jpg",
+    link: "https://www.amazon.com/A-Man-for-All-Markets-audiobook/dp/B01N4JAXQM",
+  },
+  {
+    title: "How to Lie with Statistics",
+    image: "https://m.media-amazon.com/images/I/51fGWkBsf4L.jpg",
+    link: "https://www.amazon.com/How-to-Lie-with-Statistics-audiobook/dp/B01C4RPH8Q",
+  },
+  {
+    title: "Tuesday's with Morrie",
+    image: "https://m.media-amazon.com/images/I/41WKiQD2OrL.jpg",
+    link: "https://www.amazon.com/Tuesdays-with-Morrie-Mitch-Albom-audiobook/dp/B000XSAY4Q",
+  },
 ];
 
 const MoviePage = () => {

@@ -1,4 +1,4 @@
-import ConsumedTable from "@/components/ConsumedTable";
+import ConsumedGrid from "@/components/ConsumedGrid";
 
 const tvWatched = [
   {
@@ -10,7 +10,7 @@ const tvWatched = [
 ];
 
 const MoviePage = () => {
-  return <ConsumedTable consumed={tvWatched} />;
+  return <ConsumedGrid consumed={tvWatched} />;
 };
 
 export default MoviePage;
