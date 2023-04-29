@@ -173,6 +173,11 @@ const books = [
     image: "https://m.media-amazon.com/images/I/41WKiQD2OrL.jpg",
     link: "https://www.amazon.com/Tuesdays-with-Morrie-Mitch-Albom-audiobook/dp/B000XSAY4Q",
   },
+  {
+    title: "The Ultimate Gift",
+    image: "https://m.media-amazon.com/images/I/51SujVOgxCL.jpg",
+    link: "https://www.amazon.com/Ultimate-Gift-1/dp/0781445639",
+  },
 ];
 
 const MoviePage = () => {
