@@ -2,10 +2,15 @@ import ConsumedGrid from "@/components/ConsumedGrid";
 
 const books = [
   {
+    title: "The Five Dysfunctions of a Team",
+    image: "https://m.media-amazon.com/images/I/41V9HNQcdzL.jpg",
+    link: "https://www.amazon.com/Five-Dysfunctions-of-Team-audiobook/dp/B000079XXR",
+  },
+  {
     title: "Velocity",
     image:
       "https://m.media-amazon.com/images/I/51hKkEJ1hbS._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
-    link: "https://m.media-amazon.com/images/I/51hKkEJ1hbS._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    link: "https://www.amazon.com/Velocity-Combining-Constraints-Breakthrough-Performance/dp/1439158932",
   },
   {
     title: "Get a Grip",
