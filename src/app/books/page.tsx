@@ -183,6 +183,12 @@ const books = [
     image: "https://m.media-amazon.com/images/I/51SujVOgxCL.jpg",
     link: "https://www.amazon.com/Ultimate-Gift-1/dp/0781445639",
   },
+  {
+    title: "Factfulness",
+    image:
+      "https://m.media-amazon.com/images/P/1250107814.01._SCLZZZZZZZ_SX500_.jpg",
+    link: "https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814",
+  },
 ];
 
 const MoviePage = () => {
