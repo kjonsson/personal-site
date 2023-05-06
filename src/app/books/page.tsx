@@ -189,6 +189,24 @@ const books = [
       "https://m.media-amazon.com/images/P/1250107814.01._SCLZZZZZZZ_SX500_.jpg",
     link: "https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814",
   },
+  {
+    title: "Business Adventures",
+    image:
+      "https://m.media-amazon.com/images/I/5159jIyi17L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    link: "https://www.amazon.com/Business-Adventures-Twelve-Classic-Street/dp/1497644895",
+  },
+  {
+    title: "Prisoners of Geography",
+    image:
+      "https://m.media-amazon.com/images/I/51W3DKd3M2L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    link: "https://www.amazon.com/Prisoners-Geography-Everything-Global-Politics/dp/1501121464",
+  },
+  {
+    title: "Iacocca",
+    image:
+      "https://m.media-amazon.com/images/I/51G8+K470TL._SY344_BO1,204,203,200_.jpg",
+    link: "https://www.amazon.com/Iacocca-Autobiography-Lee/dp/0553251473",
+  },
 ];
 
 const MoviePage = () => {
