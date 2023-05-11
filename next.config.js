@@ -5,7 +5,7 @@ const nextConfig = {
   },
   // allow some images
   images: {
-    domains: ['m.media-amazon.com'],
+    domains: ['m.media-amazon.com', 'avatars.githubusercontent.com'],
   },
 }
 

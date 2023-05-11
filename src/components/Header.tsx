@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 p-8 mx-auto max-w-7xl">
+    <header className="sticky top-0 z-50 p-8 mx-auto max-w-7xl">
       <motion.div
         initial={{ x: -500 }}
         animate={{ x: 0 }}
@@ -27,7 +27,7 @@ const Header = () => {
             <li>
               <Link
                 href="/movies"
-                className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
               >
                 Movies
               </Link>
@@ -35,7 +35,7 @@ const Header = () => {
             <li>
               <Link
                 href="/tv"
-                className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
               >
                 Tv
               </Link>
@@ -43,7 +43,7 @@ const Header = () => {
             <li>
               <Link
                 href="/books"
-                className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
               >
                 Books
               </Link>
