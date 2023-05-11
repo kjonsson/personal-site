@@ -18,7 +18,7 @@ const Header = () => {
             <li>
               <Link
                 href=""
-                className="block py-2 pl-3 pr-4 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 "
+                className="p-4 transition-all border border-gray-800 rounded-md hover:border-white"
                 aria-current="page"
               >
                 Home
@@ -27,7 +27,7 @@ const Header = () => {
             <li>
               <Link
                 href="/movies"
-                className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                className="p-4 transition-all border border-gray-800 rounded-md hover:border-white"
               >
                 Movies
               </Link>
@@ -35,15 +35,15 @@ const Header = () => {
             <li>
               <Link
                 href="/tv"
-                className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                className="p-4 transition-all border border-gray-800 rounded-md hover:border-white"
               >
-                Tv
+                <span className="min-w-[100px]">Tv</span>
               </Link>
             </li>
             <li>
               <Link
                 href="/books"
-                className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
+                className="p-4 transition-all border border-gray-800 rounded-md hover:border-white"
               >
                 Books
               </Link>
