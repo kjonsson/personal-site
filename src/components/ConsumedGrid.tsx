@@ -14,6 +14,7 @@ const ConsumedGrid = ({
           <div className="grid grid-cols-2 gap-y-10 gap-x-6 md:grid-cols-3 lg:grid-cols-5">
             {consumed.map((consume) => (
               <Card
+                key={consume.title}
                 image={consume.image}
                 title={consume.title}
                 subtitle={""}
