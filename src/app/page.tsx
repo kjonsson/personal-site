@@ -31,7 +31,7 @@ export default function Home() {
               >
                 Hi, I am
               </div>
-              <div className="min-h-[50px] text-5xl font-semibold  text-white text-center">
+              <div className="max-w-[300px] min-h-[150px] text-5xl font-semibold  text-white text-center">
                 {text}
               </div>
             </div>

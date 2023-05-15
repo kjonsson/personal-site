@@ -2,6 +2,12 @@ import ConsumedGrid from "@/components/ConsumedGrid";
 
 const books = [
   {
+    title: "Dev Ops Handbook",
+    image:
+      "https://m.media-amazon.com/images/I/51GaFoFB9ML._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    link: "https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002",
+  },
+  {
     title: "WOW – ris og fall flugfélags",
     image: "https://m.media-amazon.com/images/I/41C8h4-ppvL.jpg",
     link: "https://www.amazon.com/WOW-ris-fall-flugf%C3%A9lags-Icelandic-ebook/dp/B07SB1JSYS",

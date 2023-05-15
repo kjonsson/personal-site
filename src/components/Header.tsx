@@ -15,38 +15,19 @@ const Header = () => {
       >
         <div className="items-center justify-between w-full" id="mobile-menu-2">
           <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-            <li>
-              <Link
-                href=""
-                className="p-4 transition-all border border-gray-800 rounded-md hover:border-white"
-                aria-current="page"
-              >
-                Home
-              </Link>
+            <li className="text-center min-w-[100px] p-4 transition-all border border-gray-800 rounded-md hover:border-white hover:cursor-pointer">
+              <Link href="/">Home</Link>
             </li>
-            <li>
-              <Link
-                href="/movies"
-                className="p-4 transition-all border border-gray-800 rounded-md hover:border-white"
-              >
-                Movies
-              </Link>
+            <li className="text-center min-w-[100px] p-4 transition-all border border-gray-800 rounded-md hover:border-white hover:cursor-pointer">
+              <Link href="/movies">Movies</Link>
             </li>
-            <li>
-              <Link
-                href="/tv"
-                className="p-4 transition-all border border-gray-800 rounded-md hover:border-white"
-              >
+            <li className="text-center min-w-[100px] p-4 transition-all border border-gray-800 rounded-md hover:border-white hover:cursor-pointer">
+              <Link href="/tv">
                 <span className="min-w-[100px]">Tv</span>
               </Link>
             </li>
-            <li>
-              <Link
-                href="/books"
-                className="p-4 transition-all border border-gray-800 rounded-md hover:border-white"
-              >
-                Books
-              </Link>
+            <li className="text-center min-w-[100px] p-4 transition-all border border-gray-800 rounded-md hover:border-white hover:cursor-pointer">
+              <Link href="/books">Books</Link>
             </li>
           </ul>
         </div>
